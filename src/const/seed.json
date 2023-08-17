@@ -1,0 +1,2372 @@
+[
+  {
+    "team_member": [
+      {
+        "id": "085a006e-f874-42fa-8c07-05fdbab6a382",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-17T01:01:33.204Z",
+        "updated_at": "2023-08-17T17:08:37.950Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da4a7746-41eb-451f-9066-86594e67fef7",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-17T17:40:41.333Z",
+        "updated_at": "2023-08-17T04:22:04.630Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f878dd6-b814-47ca-bf37-bd594bc313ed",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-17T05:53:03.844Z",
+        "updated_at": "2023-08-17T02:27:07.130Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0850c445-a151-47e1-9342-c55e12e80da8",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-16T20:25:05.487Z",
+        "updated_at": "2023-08-17T17:23:14.301Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36fe9b42-fed3-47ce-bba6-78b30c81f92a",
+        "role": "Marketing Specialist",
+        "status": "Removed",
+        "created_at": "2023-08-16T18:27:34.048Z",
+        "updated_at": "2023-08-17T13:52:06.743Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "b1ebe331-30ed-4574-acc0-2e4e9e537571",
+        "status": "Accepted",
+        "created_at": "2023-08-16T19:24:50.198Z",
+        "updated_at": "2023-08-16T22:09:42.322Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9f8ed8fc-2b96-4a3e-af31-9cedecfbe6f4",
+        "status": "Declined",
+        "created_at": "2023-08-17T02:14:11.523Z",
+        "updated_at": "2023-08-17T08:16:32.758Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4c13c163-9f21-4f07-ae33-c713a210c9d6",
+        "status": "Pending",
+        "created_at": "2023-08-17T00:52:19.323Z",
+        "updated_at": "2023-08-17T14:21:16.031Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "11295006-bcfe-403d-a849-1b89bc1d971c",
+        "status": "Expired",
+        "created_at": "2023-08-17T10:06:27.672Z",
+        "updated_at": "2023-08-17T17:40:22.884Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "168be20f-a33f-4758-a550-100a3763ba36",
+        "status": "Cancelled",
+        "created_at": "2023-08-17T13:24:26.841Z",
+        "updated_at": "2023-08-16T18:46:28.685Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "a27ed75d-73d3-47a5-af14-77ae6d1d866b",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "betting_limit": 29839,
+        "created_at": "2023-08-17T07:32:41.686Z",
+        "updated_at": "2023-08-16T18:27:25.893Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ea32f9a3-0d5b-4976-9e4b-757636d81337",
+        "name": "Football",
+        "rules": "Score goals by kicking the ball into the opponent's net",
+        "betting_limit": 22552,
+        "created_at": "2023-08-16T21:38:46.747Z",
+        "updated_at": "2023-08-17T04:58:46.280Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "55475464-5733-44d8-a5c3-952f0b671941",
+        "name": "Basketball",
+        "rules": "Shoot the ball through the opponent's hoop to score",
+        "betting_limit": 37132,
+        "created_at": "2023-08-17T15:10:28.881Z",
+        "updated_at": "2023-08-16T22:15:39.228Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d5c034e2-c143-454a-afc4-4df20ee374ac",
+        "name": "Tennis",
+        "rules": "Hit the ball over the net without letting it touch the ground",
+        "betting_limit": 96712,
+        "created_at": "2023-08-17T03:36:41.701Z",
+        "updated_at": "2023-08-16T22:43:23.741Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c3cc4cc1-2619-4fe3-a3e5-0e5c95c78b73",
+        "name": "Golf",
+        "rules": "Hit the ball into the hole using the fewest strokes",
+        "betting_limit": 66510,
+        "created_at": "2023-08-17T00:31:58.962Z",
+        "updated_at": "2023-08-17T17:28:24.115Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bet": [
+      {
+        "id": "1b6409eb-1648-4e8b-9cd4-79f03c59644b",
+        "amount": 64559,
+        "status": "Placed",
+        "created_at": "2023-08-17T10:21:35.355Z",
+        "updated_at": "2023-08-16T18:22:45.134Z",
+        "game_id": "d5c034e2-c143-454a-afc4-4df20ee374ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a275e940-8ad6-40a8-9dd5-c0881503b99b",
+        "amount": 37902,
+        "status": "Won",
+        "created_at": "2023-08-16T23:07:25.481Z",
+        "updated_at": "2023-08-16T17:55:34.030Z",
+        "game_id": "a27ed75d-73d3-47a5-af14-77ae6d1d866b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c7b8339-eaa6-4749-bdfd-2bb043790cd3",
+        "amount": 2748,
+        "status": "Lost",
+        "created_at": "2023-08-17T08:42:39.846Z",
+        "updated_at": "2023-08-17T15:10:27.036Z",
+        "game_id": "55475464-5733-44d8-a5c3-952f0b671941",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c4fbaec-703e-4d1b-a212-0289dc55bd40",
+        "amount": 70573,
+        "status": "Cancelled",
+        "created_at": "2023-08-16T23:48:15.969Z",
+        "updated_at": "2023-08-16T20:35:54.930Z",
+        "game_id": "d5c034e2-c143-454a-afc4-4df20ee374ac",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cdf77ab-e53b-4f86-80d4-632eaa57e1df",
+        "amount": 10778,
+        "status": "Refunded",
+        "created_at": "2023-08-16T22:40:22.085Z",
+        "updated_at": "2023-08-16T18:27:20.010Z",
+        "game_id": "c3cc4cc1-2619-4fe3-a3e5-0e5c95c78b73",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "89fe62e2-a529-4ec1-ab16-83b9e7b1bb0a",
+        "email": "Maureen_Denesik@hotmail.com",
+        "firstName": "Maggie",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26170406",
+        "tenantId": null
+      },
+      {
+        "reference": "98a5587f-90c3-4583-af20-eed2a6fe36b4",
+        "email": "Geovany77@gmail.com",
+        "firstName": "Isac",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/406.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5158537c-ddea-45ec-a76d-c97a5c06bcf6",
+        "email": "Federico_Renner@gmail.com",
+        "firstName": "Felicity",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28400650",
+        "tenantId": null
+      },
+      {
+        "reference": "7e330c7b-8d1e-42da-9558-d2af9ccaaf58",
+        "email": "Wyatt_Kub@gmail.com",
+        "firstName": "Camylle",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/809.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "73c7a5ee-f7b5-419a-8f55-6579e22afed6",
+        "email": "Graciela_Kiehn50@yahoo.com",
+        "firstName": "Ronny",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/136.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "ba136dea-4a1d-4c05-8186-3d775f681980",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-16T20:03:30.213Z",
+        "updated_at": "2023-08-17T11:18:29.840Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32415f32-2761-4e66-ba25-353fd1253b7a",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-16T22:05:39.709Z",
+        "updated_at": "2023-08-16T20:58:59.156Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7aa4b6c9-07c0-4987-8f5a-6cfda1a8bb95",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-16T19:33:03.691Z",
+        "updated_at": "2023-08-17T00:32:40.267Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7858838f-0532-4716-9f1c-e375580a0deb",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-16T18:49:38.735Z",
+        "updated_at": "2023-08-17T15:42:46.500Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8157847b-2758-4eee-841a-c2160606ade7",
+        "role": "Coordinator",
+        "status": "Removed",
+        "created_at": "2023-08-17T16:54:43.370Z",
+        "updated_at": "2023-08-17T06:57:42.337Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "fe52caf4-afcb-4942-9bb8-87f63ccfb5b3",
+        "status": "Accepted",
+        "created_at": "2023-08-17T12:39:56.236Z",
+        "updated_at": "2023-08-17T05:39:40.084Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f54b136b-b97d-4345-956f-78fcb1a9e30b",
+        "status": "Declined",
+        "created_at": "2023-08-16T22:16:36.780Z",
+        "updated_at": "2023-08-17T11:48:29.241Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "06a738f1-a57a-4ded-88c5-59096a573940",
+        "status": "Pending",
+        "created_at": "2023-08-17T14:18:35.470Z",
+        "updated_at": "2023-08-17T07:04:18.364Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "89fd25b3-3bbb-47b5-8906-761850300f76",
+        "status": "Expired",
+        "created_at": "2023-08-17T07:37:13.368Z",
+        "updated_at": "2023-08-17T05:28:46.241Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "283ed82e-176d-4ce5-b114-a5ca9ce2cd65",
+        "status": "Cancelled",
+        "created_at": "2023-08-16T21:38:50.495Z",
+        "updated_at": "2023-08-16T18:37:49.492Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "1631cafe-f19f-409e-b792-948ce6519737",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "betting_limit": 41402,
+        "created_at": "2023-08-17T01:00:59.335Z",
+        "updated_at": "2023-08-17T02:30:36.776Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b4e0c2bc-aef8-40ed-8592-0d1ba34f284e",
+        "name": "Soccer",
+        "rules": "Score goals by kicking the ball into the net",
+        "betting_limit": 68396,
+        "created_at": "2023-08-16T23:22:20.887Z",
+        "updated_at": "2023-08-17T16:21:42.889Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "970a8837-a30b-456b-a2b2-2fef855c4c6d",
+        "name": "Basketball",
+        "rules": "Shoot the ball through the hoop to score",
+        "betting_limit": 52333,
+        "created_at": "2023-08-17T10:05:46.990Z",
+        "updated_at": "2023-08-17T09:26:38.384Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6f428c5a-b841-431c-9e35-6ed81b984561",
+        "name": "Golf",
+        "rules": "Hit the ball into the hole with fewest strokes",
+        "betting_limit": 34985,
+        "created_at": "2023-08-16T21:17:33.999Z",
+        "updated_at": "2023-08-16T23:30:49.195Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2a948f10-7af9-42f7-89e5-53ab458024aa",
+        "name": "Tennis",
+        "rules": "Hit the ball over the net without it touching the ground",
+        "betting_limit": 18734,
+        "created_at": "2023-08-17T08:15:18.816Z",
+        "updated_at": "2023-08-17T16:15:35.311Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bet": [
+      {
+        "id": "eba464b7-4e2e-453a-9f29-3e846bd8c11a",
+        "amount": 71610,
+        "status": "Won",
+        "created_at": "2023-08-17T01:45:02.522Z",
+        "updated_at": "2023-08-16T18:23:47.281Z",
+        "game_id": "b4e0c2bc-aef8-40ed-8592-0d1ba34f284e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f2ae8a7-cd21-4d6f-81f4-18009b1c19f9",
+        "amount": 55876,
+        "status": "Lost",
+        "created_at": "2023-08-17T02:19:42.623Z",
+        "updated_at": "2023-08-17T08:42:04.233Z",
+        "game_id": "2a948f10-7af9-42f7-89e5-53ab458024aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbfbb2c9-ce34-4679-b1e3-da0ae8a1c355",
+        "amount": 77961,
+        "status": "Pending",
+        "created_at": "2023-08-17T06:44:40.243Z",
+        "updated_at": "2023-08-17T04:30:18.325Z",
+        "game_id": "1631cafe-f19f-409e-b792-948ce6519737",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da09e2e5-41a3-48f3-b673-5c8e4f4b0c06",
+        "amount": 84615,
+        "status": "Cancelled",
+        "created_at": "2023-08-16T22:31:06.693Z",
+        "updated_at": "2023-08-16T19:20:24.141Z",
+        "game_id": "970a8837-a30b-456b-a2b2-2fef855c4c6d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4484a44d-c089-47ad-91c7-3ed46f0b69bc",
+        "amount": 2732,
+        "status": "Settled",
+        "created_at": "2023-08-17T15:50:07.401Z",
+        "updated_at": "2023-08-16T21:39:45.356Z",
+        "game_id": "2a948f10-7af9-42f7-89e5-53ab458024aa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fd892e5e-2e66-441e-b959-be3040361cee",
+        "email": "Janis17@hotmail.com",
+        "firstName": "Pattie",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72592866",
+        "tenantId": null
+      },
+      {
+        "reference": "30dd25c0-0bf1-41f6-b788-9a855fda536f",
+        "email": "Adolphus20@yahoo.com",
+        "firstName": "Vivienne",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66835034",
+        "tenantId": null
+      },
+      {
+        "reference": "31d943d4-5844-4248-9dcd-1902b60bde7a",
+        "email": "Blanche.Watsica@gmail.com",
+        "firstName": "Orval",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9575134",
+        "tenantId": null
+      },
+      {
+        "reference": "013631b9-db04-407e-8b6d-779d05392cd0",
+        "email": "Gladys62@hotmail.com",
+        "firstName": "Yazmin",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/708.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4b3fccbf-2b34-46f1-b6a7-bf418ed400cd",
+        "email": "Rebecca46@gmail.com",
+        "firstName": "Juliana",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50129587",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "7446b006-cc2f-46b9-89f7-5f9fe6d282b8",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-16T19:41:26.611Z",
+        "updated_at": "2023-08-17T04:16:36.185Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bfda847-4d83-498d-9a52-585031079a2e",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-17T12:18:31.920Z",
+        "updated_at": "2023-08-16T21:11:35.317Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a6c9ff4-ea55-448a-b76f-02b92a33dff5",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-16T22:34:04.910Z",
+        "updated_at": "2023-08-16T21:53:34.319Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e93832ac-1066-4e39-97dd-9c779439b59f",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-16T23:27:02.928Z",
+        "updated_at": "2023-08-16T23:22:30.493Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cc2515d-2e15-40b4-a5bd-a4f60153ca68",
+        "role": "Marketing Specialist",
+        "status": "Archived",
+        "created_at": "2023-08-17T02:01:02.186Z",
+        "updated_at": "2023-08-17T10:23:16.361Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "f1dc4ea9-fc5a-495b-bd71-7cc876310b53",
+        "status": "Accepted",
+        "created_at": "2023-08-17T02:46:56.605Z",
+        "updated_at": "2023-08-16T22:14:56.439Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "30c7ea97-e912-45bb-b867-71fbbb957fd8",
+        "status": "Declined",
+        "created_at": "2023-08-17T10:33:08.477Z",
+        "updated_at": "2023-08-16T23:06:57.740Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b2dbafc8-0957-453e-931b-4e1f90ee7828",
+        "status": "Pending",
+        "created_at": "2023-08-17T12:01:24.843Z",
+        "updated_at": "2023-08-17T06:12:24.504Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0aee0898-face-4dc1-9eef-35693b46db26",
+        "status": "Expired",
+        "created_at": "2023-08-17T16:10:56.639Z",
+        "updated_at": "2023-08-17T08:25:37.342Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6170dc48-5c3e-4acb-8c27-9e27d10d19f0",
+        "status": "Cancelled",
+        "created_at": "2023-08-17T15:54:14.577Z",
+        "updated_at": "2023-08-16T23:41:27.348Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "74fd5b5c-b285-4021-bc58-ebf73131c6b0",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "betting_limit": 98867,
+        "created_at": "2023-08-17T17:44:42.491Z",
+        "updated_at": "2023-08-16T23:11:42.415Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "63657b2f-d0ac-47b7-94e1-e5d32d9aa018",
+        "name": "Football",
+        "rules": "Score goals by kicking the ball into the opponent's net",
+        "betting_limit": 12495,
+        "created_at": "2023-08-17T08:42:29.142Z",
+        "updated_at": "2023-08-17T12:12:59.880Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "213b57d0-07f2-4307-8743-641566d9e284",
+        "name": "Poker",
+        "rules": "Form the best hand using a combination of cards",
+        "betting_limit": 78178,
+        "created_at": "2023-08-17T09:46:44.523Z",
+        "updated_at": "2023-08-17T07:39:46.566Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1112c724-5c5d-418f-a203-00ef0320b597",
+        "name": "Basketball",
+        "rules": "Shoot the ball into the opponent's hoop to score",
+        "betting_limit": 97097,
+        "created_at": "2023-08-17T01:33:13.903Z",
+        "updated_at": "2023-08-17T02:28:42.443Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "867ab213-ac37-4193-85e9-60e720aa946e",
+        "name": "Golf",
+        "rules": "Hit the ball into a series of holes using the fewest strokes",
+        "betting_limit": 83761,
+        "created_at": "2023-08-16T21:02:04.495Z",
+        "updated_at": "2023-08-17T17:43:48.725Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bet": [
+      {
+        "id": "88240c34-a848-45e8-99c2-cd790700fdbd",
+        "amount": 89703,
+        "status": "Placed",
+        "created_at": "2023-08-16T23:52:35.074Z",
+        "updated_at": "2023-08-17T12:48:08.787Z",
+        "game_id": "867ab213-ac37-4193-85e9-60e720aa946e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f2b90a9-d88f-4791-88b1-9ef0082b4fd8",
+        "amount": 68526,
+        "status": "Won",
+        "created_at": "2023-08-16T23:49:38.531Z",
+        "updated_at": "2023-08-17T03:04:56.381Z",
+        "game_id": "213b57d0-07f2-4307-8743-641566d9e284",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fe34356-229d-48a4-b1d6-1102ac2bf107",
+        "amount": 11070,
+        "status": "Lost",
+        "created_at": "2023-08-17T10:12:24.566Z",
+        "updated_at": "2023-08-16T21:48:59.214Z",
+        "game_id": "1112c724-5c5d-418f-a203-00ef0320b597",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25bc1ebf-9974-4871-845a-4f2e37ba4b60",
+        "amount": 23539,
+        "status": "Cancelled",
+        "created_at": "2023-08-17T06:15:05.632Z",
+        "updated_at": "2023-08-17T00:57:56.349Z",
+        "game_id": "74fd5b5c-b285-4021-bc58-ebf73131c6b0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c31e126-e0c8-47de-812e-3cb9b73b47d9",
+        "amount": 44933,
+        "status": "Refunded",
+        "created_at": "2023-08-16T19:20:05.258Z",
+        "updated_at": "2023-08-17T03:06:23.330Z",
+        "game_id": "74fd5b5c-b285-4021-bc58-ebf73131c6b0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "74ae34ec-e3dd-43ea-8f76-7ce31ba43e4e",
+        "email": "Elias.Kihn56@gmail.com",
+        "firstName": "Estelle",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68727504",
+        "tenantId": null
+      },
+      {
+        "reference": "74813c68-131a-49cd-bd32-1a4432fe2a9d",
+        "email": "Stephen_Kiehn-Breitenberg46@gmail.com",
+        "firstName": "Aimee",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/499.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7ab1c77f-b557-4453-b826-7bef3b2a610b",
+        "email": "Jake.Wisozk@hotmail.com",
+        "firstName": "Tevin",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1052.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f071e957-9007-46cd-992f-f2bc00642773",
+        "email": "Tyshawn49@gmail.com",
+        "firstName": "Zander",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81467747",
+        "tenantId": null
+      },
+      {
+        "reference": "16d25b0e-60a2-4820-b4c0-cd4360165c6d",
+        "email": "Michele6@yahoo.com",
+        "firstName": "Drew",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38310750",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "9facdfb9-32fe-49d9-9dcc-b37fa5f17ebf",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-17T12:08:41.123Z",
+        "updated_at": "2023-08-17T09:54:23.107Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ad53273-27f4-4aa7-86e0-34feadce8d52",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-16T21:46:17.615Z",
+        "updated_at": "2023-08-17T03:58:33.679Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb69c624-b760-403e-aea6-0e2411d80dcf",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-17T07:58:10.091Z",
+        "updated_at": "2023-08-16T23:11:41.918Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51a23f7f-6b4d-4de4-992f-7c41012e056e",
+        "role": "Tester",
+        "status": "Suspended",
+        "created_at": "2023-08-17T11:00:02.095Z",
+        "updated_at": "2023-08-17T09:52:26.112Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "490b85d5-ec4f-4fe4-a219-2277231a9410",
+        "role": "Analyst",
+        "status": "Deleted",
+        "created_at": "2023-08-16T19:15:56.506Z",
+        "updated_at": "2023-08-17T12:36:44.854Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "e9048226-6f53-485d-833f-4f95a4959da0",
+        "status": "Accepted",
+        "created_at": "2023-08-16T20:08:35.897Z",
+        "updated_at": "2023-08-17T11:01:56.276Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2456c20e-e27e-41bc-b438-a03e9e9d4a82",
+        "status": "Declined",
+        "created_at": "2023-08-17T03:42:12.436Z",
+        "updated_at": "2023-08-17T08:02:33.190Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1c7eff24-7082-43f5-97c5-d7717e53f99e",
+        "status": "Pending",
+        "created_at": "2023-08-17T11:27:57.029Z",
+        "updated_at": "2023-08-16T18:15:13.458Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7230ac20-3e8c-4605-84ce-8c148836e0b2",
+        "status": "Expired",
+        "created_at": "2023-08-17T11:49:44.075Z",
+        "updated_at": "2023-08-17T15:05:40.852Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fba780aa-9370-4943-a1fe-c46a8ce4081c",
+        "status": "Cancelled",
+        "created_at": "2023-08-16T20:08:09.668Z",
+        "updated_at": "2023-08-16T19:53:50.645Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "23a6feb1-2c34-4fd4-8e00-ee29a72256c0",
+        "name": "Game A",
+        "rules": "Rule A",
+        "betting_limit": 30648,
+        "created_at": "2023-08-17T12:50:37.218Z",
+        "updated_at": "2023-08-17T04:15:52.709Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d4619d4b-6c4a-44be-83f3-62dbe0dc5abb",
+        "name": "Game B",
+        "rules": "Rule B",
+        "betting_limit": 38844,
+        "created_at": "2023-08-17T01:44:10.563Z",
+        "updated_at": "2023-08-17T11:25:18.171Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6c5cd06b-ecfe-44ce-a5fc-87cf7203c809",
+        "name": "Game C",
+        "rules": "Rule C",
+        "betting_limit": 60791,
+        "created_at": "2023-08-16T18:19:55.205Z",
+        "updated_at": "2023-08-17T14:17:25.714Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7adf6731-990b-4ff2-af4d-f36487cefe64",
+        "name": "Game D",
+        "rules": "Rule D",
+        "betting_limit": 93341,
+        "created_at": "2023-08-17T07:03:55.806Z",
+        "updated_at": "2023-08-17T01:00:19.016Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5a25f277-3f97-4579-8fa6-49914ced308f",
+        "name": "Game E",
+        "rules": "Rule E",
+        "betting_limit": 67061,
+        "created_at": "2023-08-17T01:34:19.381Z",
+        "updated_at": "2023-08-17T07:47:43.364Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bet": [
+      {
+        "id": "18ed16b7-4249-4501-9081-ba0085fb1df4",
+        "amount": 4834,
+        "status": "Won",
+        "created_at": "2023-08-17T16:16:49.474Z",
+        "updated_at": "2023-08-17T07:37:22.716Z",
+        "game_id": "d4619d4b-6c4a-44be-83f3-62dbe0dc5abb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "083d2c92-1666-4e65-847f-94253b156179",
+        "amount": 48167,
+        "status": "Lost",
+        "created_at": "2023-08-16T20:32:43.652Z",
+        "updated_at": "2023-08-16T18:46:39.495Z",
+        "game_id": "5a25f277-3f97-4579-8fa6-49914ced308f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fd937a4-4d4b-40d3-b20d-ef7bf42a81bd",
+        "amount": 50623,
+        "status": "Pending",
+        "created_at": "2023-08-16T18:45:38.671Z",
+        "updated_at": "2023-08-17T08:48:30.207Z",
+        "game_id": "d4619d4b-6c4a-44be-83f3-62dbe0dc5abb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc51a029-639f-4606-a2ac-2a6bd09afb44",
+        "amount": 64623,
+        "status": "Cancelled",
+        "created_at": "2023-08-17T08:16:30.264Z",
+        "updated_at": "2023-08-17T06:52:12.445Z",
+        "game_id": "5a25f277-3f97-4579-8fa6-49914ced308f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af6e044a-2daf-49d0-bf2a-cbc54ed31469",
+        "amount": 13998,
+        "status": "Settled",
+        "created_at": "2023-08-16T23:33:12.957Z",
+        "updated_at": "2023-08-17T17:26:22.890Z",
+        "game_id": "d4619d4b-6c4a-44be-83f3-62dbe0dc5abb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "61346ac9-8248-48ce-8acf-dfee048fab0d",
+        "email": "Jesse10@yahoo.com",
+        "firstName": "Natalia",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57225582",
+        "tenantId": null
+      },
+      {
+        "reference": "e7e92129-591f-4ea6-aa59-d80688b13641",
+        "email": "Raegan33@gmail.com",
+        "firstName": "Lloyd",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/927.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19e037ed-a61a-4678-bb80-e050deb65eef",
+        "email": "Dillon_Miller80@hotmail.com",
+        "firstName": "Quinn",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19923475",
+        "tenantId": null
+      },
+      {
+        "reference": "31111bfc-4c17-4b09-923c-38d5ccd27885",
+        "email": "Kraig_Jacobson@yahoo.com",
+        "firstName": "Carrie",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/868.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2dfc6a5d-8a13-4d84-a86b-2f910e87d937",
+        "email": "Zelda.Hills@yahoo.com",
+        "firstName": "Morton",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31867792",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "db160add-5989-41f3-b5f8-e7f04ced2b6e",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-17T07:02:30.424Z",
+        "updated_at": "2023-08-17T04:18:49.419Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "60b903d4-da9b-4444-bae5-8f8a2d62a97e",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-17T14:09:30.223Z",
+        "updated_at": "2023-08-17T07:48:08.246Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b916bf9-1a48-4f7c-a3de-0bd8590b258f",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-17T10:01:01.590Z",
+        "updated_at": "2023-08-17T00:39:20.057Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e12275ac-d98e-4dba-ae83-219ec50573bf",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-17T13:16:33.085Z",
+        "updated_at": "2023-08-16T19:23:07.107Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "649a8d86-c27e-47e1-8627-f080d7c69a79",
+        "role": "Tester",
+        "status": "Removed",
+        "created_at": "2023-08-16T23:27:02.004Z",
+        "updated_at": "2023-08-17T01:28:29.562Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "0f08a1d3-8e60-4c94-8d1c-8ae6e7b20371",
+        "status": "Sent",
+        "created_at": "2023-08-17T17:29:13.669Z",
+        "updated_at": "2023-08-17T02:06:49.146Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0d818b74-069e-422d-91bf-e014c3f24360",
+        "status": "Accepted",
+        "created_at": "2023-08-17T17:26:40.063Z",
+        "updated_at": "2023-08-17T03:33:29.918Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "12e09184-cf5c-4059-91e6-3ab9eb7e0b72",
+        "status": "Declined",
+        "created_at": "2023-08-17T11:02:18.073Z",
+        "updated_at": "2023-08-17T11:34:30.519Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "22c3bde5-e60a-45f0-92ec-600035819ff9",
+        "status": "Expired",
+        "created_at": "2023-08-17T03:20:22.485Z",
+        "updated_at": "2023-08-16T22:53:54.892Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f5d42001-d896-4cdc-a527-12fa6785e2a7",
+        "status": "Cancelled",
+        "created_at": "2023-08-17T03:39:41.321Z",
+        "updated_at": "2023-08-16T22:15:06.766Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "bc9a0744-5849-4d7b-88b5-28d8234dca22",
+        "name": "Chess",
+        "rules": "No cheating allowed",
+        "betting_limit": 75920,
+        "created_at": "2023-08-17T01:53:28.600Z",
+        "updated_at": "2023-08-17T11:24:39.670Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "75e1b4a8-5cb8-468d-953e-ae0b2d2fe280",
+        "name": "Soccer",
+        "rules": "Fair play is encouraged",
+        "betting_limit": 2665,
+        "created_at": "2023-08-17T08:02:34.708Z",
+        "updated_at": "2023-08-17T14:02:30.976Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0740f8e0-2c5c-481d-bf5a-a82517e179c6",
+        "name": "Basketball",
+        "rules": "Teamwork is important",
+        "betting_limit": 86854,
+        "created_at": "2023-08-17T03:01:52.397Z",
+        "updated_at": "2023-08-16T22:09:31.846Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c3a4acd8-7562-4c21-bac3-86559383ca20",
+        "name": "Tennis",
+        "rules": "Respect opponents and officials",
+        "betting_limit": 21947,
+        "created_at": "2023-08-16T19:06:40.724Z",
+        "updated_at": "2023-08-17T04:38:51.412Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7463afdd-1e02-4477-b0f8-db5aac371a83",
+        "name": "Golf",
+        "rules": "Enjoy the game",
+        "betting_limit": 21890,
+        "created_at": "2023-08-17T13:49:27.000Z",
+        "updated_at": "2023-08-16T19:05:23.502Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bet": [
+      {
+        "id": "54c59855-66bd-4bc5-a90c-60a26ce98c33",
+        "amount": 28012,
+        "status": "Open",
+        "created_at": "2023-08-16T18:08:46.862Z",
+        "updated_at": "2023-08-17T03:24:55.929Z",
+        "game_id": "75e1b4a8-5cb8-468d-953e-ae0b2d2fe280",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "198d39cc-040c-4184-8d76-30656f88e7a9",
+        "amount": 62549,
+        "status": "Closed",
+        "created_at": "2023-08-17T14:04:05.216Z",
+        "updated_at": "2023-08-17T16:30:49.101Z",
+        "game_id": "7463afdd-1e02-4477-b0f8-db5aac371a83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4546ea04-1493-4ef1-8cc0-dab7993a0fbb",
+        "amount": 16028,
+        "status": "Cancelled",
+        "created_at": "2023-08-16T21:49:55.776Z",
+        "updated_at": "2023-08-17T09:22:56.506Z",
+        "game_id": "bc9a0744-5849-4d7b-88b5-28d8234dca22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18519a0f-1787-4f81-95d0-c5bb985b4edf",
+        "amount": 97647,
+        "status": "Settled",
+        "created_at": "2023-08-17T05:29:36.268Z",
+        "updated_at": "2023-08-17T04:32:06.091Z",
+        "game_id": "75e1b4a8-5cb8-468d-953e-ae0b2d2fe280",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "571da5b5-8087-49f2-852e-73a36d108469",
+        "amount": 85447,
+        "status": "Pending",
+        "created_at": "2023-08-16T22:22:45.992Z",
+        "updated_at": "2023-08-16T22:59:59.896Z",
+        "game_id": "c3a4acd8-7562-4c21-bac3-86559383ca20",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2da6edde-a3b6-4d01-8cf2-28eedf6b363d",
+        "email": "Pearl66@gmail.com",
+        "firstName": "Ollie",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/519.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9eff0923-798c-4e30-9d48-17c545846b38",
+        "email": "Forrest83@yahoo.com",
+        "firstName": "Dexter",
+        "lastName": "Feil",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/311.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec91957c-e82d-4675-ab5b-5f76fd20a476",
+        "email": "Luna32@gmail.com",
+        "firstName": "Kiley",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1095.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2d1bce4d-f5f0-46f8-831a-3b8c10652c36",
+        "email": "Angeline.Wintheiser@hotmail.com",
+        "firstName": "Heber",
+        "lastName": "Willms-Blanda",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94721381",
+        "tenantId": null
+      },
+      {
+        "reference": "d77149b5-4781-4dc8-b988-c4cd0f6b3c2f",
+        "email": "Ward_Flatley@hotmail.com",
+        "firstName": "Arthur",
+        "lastName": "Mills-Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72834191",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "73f679f5-eb0e-4914-b4da-41a1a9fe11b2",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-17T02:12:01.504Z",
+        "updated_at": "2023-08-17T08:58:52.681Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b66645a-5220-4608-9177-b88c9f799683",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-17T17:43:00.524Z",
+        "updated_at": "2023-08-17T04:09:08.814Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f24fc609-c348-4ef2-a9e5-3c5933070e2b",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-17T05:42:42.747Z",
+        "updated_at": "2023-08-17T01:55:36.206Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93e4ea6b-2b45-495e-9b5a-32c1fa157669",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-16T19:06:44.498Z",
+        "updated_at": "2023-08-16T19:55:35.814Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33ce3d58-892d-47f7-8fa1-7373fa6c404a",
+        "role": "Marketing Specialist",
+        "status": "Archived",
+        "created_at": "2023-08-17T05:28:37.965Z",
+        "updated_at": "2023-08-17T08:53:38.023Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "55679ac0-e3ca-43fb-8037-3ee8001a5a58",
+        "status": "Sent",
+        "created_at": "2023-08-17T10:32:22.906Z",
+        "updated_at": "2023-08-16T19:18:07.755Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d1c07165-0713-4887-9f4e-04c7f1b3c9e7",
+        "status": "Accepted",
+        "created_at": "2023-08-17T00:23:28.267Z",
+        "updated_at": "2023-08-17T08:26:55.240Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "29a09642-7143-4f94-84f1-083e5a753ed6",
+        "status": "Declined",
+        "created_at": "2023-08-17T16:51:06.132Z",
+        "updated_at": "2023-08-17T13:01:36.586Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "673926ae-7c9f-4644-b627-2b71a345f9d3",
+        "status": "Expired",
+        "created_at": "2023-08-17T00:53:56.472Z",
+        "updated_at": "2023-08-17T07:22:13.706Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dc48c68e-5e70-43f8-8ffa-63522b496179",
+        "status": "Pending",
+        "created_at": "2023-08-16T21:52:14.775Z",
+        "updated_at": "2023-08-17T02:19:30.275Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "63defb52-e8b6-4163-83f2-4fafd8cbd86b",
+        "name": "Chess",
+        "rules": "Each player starts with 16 pieces",
+        "betting_limit": 44214,
+        "created_at": "2023-08-17T15:58:33.274Z",
+        "updated_at": "2023-08-17T14:23:27.130Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2fcb8e01-0794-4314-8c7c-938cbd8ebae4",
+        "name": "Soccer",
+        "rules": "Two teams of 11 players each",
+        "betting_limit": 5818,
+        "created_at": "2023-08-17T14:47:15.257Z",
+        "updated_at": "2023-08-16T18:33:33.022Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "43681a18-d793-4ebd-911c-3bbd078faedf",
+        "name": "Basketball",
+        "rules": "Score points by shooting the ball into the opponent's hoop",
+        "betting_limit": 58280,
+        "created_at": "2023-08-17T06:14:39.483Z",
+        "updated_at": "2023-08-17T07:41:05.858Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b061dc51-a9aa-4871-846c-cf6c738b1e3e",
+        "name": "Golf",
+        "rules": "Hit a small ball into a series of holes",
+        "betting_limit": 45,
+        "created_at": "2023-08-17T08:47:45.567Z",
+        "updated_at": "2023-08-17T00:23:20.915Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "589d9f35-ed3c-4478-9fcf-712e0f62707f",
+        "name": "Tennis",
+        "rules": "Played with a racquet and a ball",
+        "betting_limit": 3993,
+        "created_at": "2023-08-16T22:38:19.228Z",
+        "updated_at": "2023-08-17T03:14:44.660Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bet": [
+      {
+        "id": "0e98e21f-cdad-4f59-8f94-eb6e66a221aa",
+        "amount": 40769,
+        "status": "Placed",
+        "created_at": "2023-08-17T11:24:49.706Z",
+        "updated_at": "2023-08-16T22:35:02.840Z",
+        "game_id": "b061dc51-a9aa-4871-846c-cf6c738b1e3e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73b5143a-115b-41ad-8663-8636d73690c9",
+        "amount": 76752,
+        "status": "Won",
+        "created_at": "2023-08-17T06:53:38.643Z",
+        "updated_at": "2023-08-17T17:04:29.432Z",
+        "game_id": "589d9f35-ed3c-4478-9fcf-712e0f62707f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7dfdf525-fb2a-4365-85f7-31ef88d1d6b3",
+        "amount": 6007,
+        "status": "Lost",
+        "created_at": "2023-08-17T17:43:35.105Z",
+        "updated_at": "2023-08-17T00:45:51.377Z",
+        "game_id": "589d9f35-ed3c-4478-9fcf-712e0f62707f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc2fc1da-c776-4db8-a8ab-cd26f6d6e627",
+        "amount": 24865,
+        "status": "Cancelled",
+        "created_at": "2023-08-16T21:07:27.855Z",
+        "updated_at": "2023-08-17T02:29:01.017Z",
+        "game_id": "63defb52-e8b6-4163-83f2-4fafd8cbd86b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1ad8267-1201-4a88-9126-b76b786d9f79",
+        "amount": 37899,
+        "status": "Pending",
+        "created_at": "2023-08-17T14:29:00.399Z",
+        "updated_at": "2023-08-17T10:52:07.488Z",
+        "game_id": "b061dc51-a9aa-4871-846c-cf6c738b1e3e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f521f3b-85a0-4eb5-a816-0ab3152d5c19",
+        "email": "Beryl.Hahn@hotmail.com",
+        "firstName": "Ebba",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/724.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a739dce-c038-414f-bb84-2ab7370291d4",
+        "email": "Tyree_Goodwin@gmail.com",
+        "firstName": "Rasheed",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5326834",
+        "tenantId": null
+      },
+      {
+        "reference": "71209b7b-b5cb-452a-8947-ddf2ba05051e",
+        "email": "Josianne_Heidenreich94@hotmail.com",
+        "firstName": "Hillard",
+        "lastName": "Skiles-Keeling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41691034",
+        "tenantId": null
+      },
+      {
+        "reference": "3abca005-98b4-4341-98f9-e12ff23943e7",
+        "email": "Cornell_Stehr@gmail.com",
+        "firstName": "Jairo",
+        "lastName": "Hudson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/797.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7ba6ad96-97ef-498f-8677-2277185443dd",
+        "email": "Jonatan97@yahoo.com",
+        "firstName": "Brett",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42507378",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "11d1dbe6-b462-431c-a7a0-8951951e8728",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-16T19:08:38.171Z",
+        "updated_at": "2023-08-17T09:18:21.532Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8886b3b-9826-4a53-9305-1828f4ba1101",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-17T14:38:56.986Z",
+        "updated_at": "2023-08-16T18:15:09.822Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4649c227-682a-4fa7-a4f0-5011f48ca98c",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-16T23:35:56.342Z",
+        "updated_at": "2023-08-17T05:26:00.594Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be6e7d9f-a460-4b6e-a74f-5759b043b6c1",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-16T20:30:48.228Z",
+        "updated_at": "2023-08-17T03:21:51.169Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40845e24-090e-4001-9d3d-b46faceab3aa",
+        "role": "Coordinator",
+        "status": "Approved",
+        "created_at": "2023-08-17T09:36:01.591Z",
+        "updated_at": "2023-08-17T07:34:24.178Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "a3c016ba-e8fd-46e4-929a-f420ba3e1af5",
+        "status": "Sent",
+        "created_at": "2023-08-16T22:39:05.552Z",
+        "updated_at": "2023-08-17T14:08:58.545Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "65cc341c-08ef-490c-b78c-c1a0adc08a93",
+        "status": "Accepted",
+        "created_at": "2023-08-17T16:52:44.016Z",
+        "updated_at": "2023-08-17T15:36:24.542Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3b2764dd-8b4a-409b-9d89-391087e51128",
+        "status": "Declined",
+        "created_at": "2023-08-16T21:47:04.360Z",
+        "updated_at": "2023-08-16T18:48:57.214Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ecb0ad3f-7932-475d-9117-24bfc5f735b2",
+        "status": "Expired",
+        "created_at": "2023-08-17T06:10:12.392Z",
+        "updated_at": "2023-08-17T16:09:46.800Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "633d1092-bde5-4dac-9857-0ec6e3ed8e1f",
+        "status": "Pending",
+        "created_at": "2023-08-17T16:59:30.699Z",
+        "updated_at": "2023-08-17T02:24:36.001Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "bc621763-9b2d-4f42-b2ab-f13357f90e3b",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "betting_limit": 33815,
+        "created_at": "2023-08-16T22:11:55.955Z",
+        "updated_at": "2023-08-17T14:05:59.348Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "502dab6f-6448-4509-9b95-7e85571ab5fc",
+        "name": "Football",
+        "rules": "Score goals by kicking the ball into the opponent's net",
+        "betting_limit": 91944,
+        "created_at": "2023-08-17T08:33:50.692Z",
+        "updated_at": "2023-08-17T11:17:53.379Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ee55fde9-9a9a-4e51-b8f9-c344ec8c7e0f",
+        "name": "Basketball",
+        "rules": "Shoot the ball through the hoop to score points",
+        "betting_limit": 33216,
+        "created_at": "2023-08-17T07:23:08.860Z",
+        "updated_at": "2023-08-17T16:26:50.126Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c77d1240-5d24-4aa1-aed6-5151bb71ff4a",
+        "name": "Tennis",
+        "rules": "Hit the ball over the net without letting it touch the ground",
+        "betting_limit": 8539,
+        "created_at": "2023-08-17T09:51:48.366Z",
+        "updated_at": "2023-08-17T01:01:47.882Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9e9e2be2-f340-4b8d-bfcd-49d2d37b4bd2",
+        "name": "Golf",
+        "rules": "Hit the ball into the hole using the fewest strokes",
+        "betting_limit": 96002,
+        "created_at": "2023-08-16T22:20:03.887Z",
+        "updated_at": "2023-08-17T01:01:45.675Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bet": [
+      {
+        "id": "045f253a-567c-4aa2-9411-9eb475591481",
+        "amount": 55795,
+        "status": "Active",
+        "created_at": "2023-08-17T15:39:56.998Z",
+        "updated_at": "2023-08-17T17:26:50.574Z",
+        "game_id": "c77d1240-5d24-4aa1-aed6-5151bb71ff4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff0c1ec8-49a8-49b6-815e-0c71e360c334",
+        "amount": 16669,
+        "status": "Inactive",
+        "created_at": "2023-08-17T13:20:42.724Z",
+        "updated_at": "2023-08-17T02:06:56.788Z",
+        "game_id": "ee55fde9-9a9a-4e51-b8f9-c344ec8c7e0f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24682d4e-c426-4f66-8cc0-72a6b98b019a",
+        "amount": 76244,
+        "status": "Pending",
+        "created_at": "2023-08-17T03:22:48.115Z",
+        "updated_at": "2023-08-17T14:50:52.799Z",
+        "game_id": "ee55fde9-9a9a-4e51-b8f9-c344ec8c7e0f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "230ff5ce-f01f-49f9-9f20-c75d91ca552a",
+        "amount": 60829,
+        "status": "Suspended",
+        "created_at": "2023-08-17T01:55:21.962Z",
+        "updated_at": "2023-08-17T09:49:44.807Z",
+        "game_id": "9e9e2be2-f340-4b8d-bfcd-49d2d37b4bd2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae33640e-349a-4ad6-80a8-da8ac827e277",
+        "amount": 74327,
+        "status": "Completed",
+        "created_at": "2023-08-17T17:30:31.972Z",
+        "updated_at": "2023-08-17T06:44:13.702Z",
+        "game_id": "502dab6f-6448-4509-9b95-7e85571ab5fc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1d1fcb6d-feac-4da7-ae8e-da3a73945100",
+        "email": "Elmore78@yahoo.com",
+        "firstName": "Dereck",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/884.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "45b7c9fb-e6b5-4476-899e-a9c40779881d",
+        "email": "Edythe21@hotmail.com",
+        "firstName": "Kayley",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/340.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "81741cab-21d5-43d7-9241-c3ff59b29053",
+        "email": "Oswald.McDermott27@yahoo.com",
+        "firstName": "Noel",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18220493",
+        "tenantId": null
+      },
+      {
+        "reference": "865d8523-d0c9-44ad-9008-e632bfdddcef",
+        "email": "Santina77@hotmail.com",
+        "firstName": "Jesse",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/801.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7fe4830b-378d-444c-9f73-b0cb87bf38ea",
+        "email": "Kody_Walker98@hotmail.com",
+        "firstName": "Annabel",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66272292",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "8eea6dd8-2336-44fd-94c0-1a5aad4f4125",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-17T11:03:54.817Z",
+        "updated_at": "2023-08-17T03:49:10.914Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27bef7fd-7f87-4acd-9aee-7e1c97d89064",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-16T20:36:54.033Z",
+        "updated_at": "2023-08-16T19:35:01.476Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe381740-26f3-4a6d-b675-acfcf562485e",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-17T17:41:04.919Z",
+        "updated_at": "2023-08-16T18:31:03.270Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f93bb59-6d11-4597-abff-28456bbc4e9c",
+        "role": "Marketing Specialist",
+        "status": "Suspended",
+        "created_at": "2023-08-16T19:56:54.880Z",
+        "updated_at": "2023-08-16T21:51:21.072Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3af2941-610a-4e44-b9d8-e7e0f5cd9ac5",
+        "role": "Sales Representative",
+        "status": "Archived",
+        "created_at": "2023-08-17T11:09:41.269Z",
+        "updated_at": "2023-08-16T22:24:00.944Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "41677a62-098c-40b9-982a-54fba3f8661b",
+        "status": "Accepted",
+        "created_at": "2023-08-17T03:27:34.093Z",
+        "updated_at": "2023-08-17T17:14:07.589Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6f531ddc-e169-433a-a3ca-b2f01caca478",
+        "status": "Declined",
+        "created_at": "2023-08-17T14:56:03.725Z",
+        "updated_at": "2023-08-17T11:11:01.033Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "51c54c1b-9201-410d-91e1-cd1b3d56d117",
+        "status": "Pending",
+        "created_at": "2023-08-17T13:09:00.330Z",
+        "updated_at": "2023-08-17T01:09:49.151Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7fcaa894-dfe3-4978-b62e-a12511990cb8",
+        "status": "Expired",
+        "created_at": "2023-08-17T08:59:01.655Z",
+        "updated_at": "2023-08-17T06:09:38.610Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fda11f82-b2fe-4707-b0c2-1418708ecc3f",
+        "status": "Cancelled",
+        "created_at": "2023-08-17T08:44:53.118Z",
+        "updated_at": "2023-08-17T13:04:56.430Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "aced3af7-d3e9-4b20-94cf-6eebeae54523",
+        "name": "Chess",
+        "rules": "Capture the opponent's king to win",
+        "betting_limit": 50953,
+        "created_at": "2023-08-17T06:57:57.259Z",
+        "updated_at": "2023-08-16T17:56:59.233Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c01a8fed-02c1-4696-a2b0-3b575213d924",
+        "name": "Soccer",
+        "rules": "Score goals by kicking the ball into the net",
+        "betting_limit": 27738,
+        "created_at": "2023-08-17T07:40:12.177Z",
+        "updated_at": "2023-08-17T11:56:54.918Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d244c732-040f-483f-8015-568c25c6d2a9",
+        "name": "Basketball",
+        "rules": "Shoot the ball into the hoop to score points",
+        "betting_limit": 86517,
+        "created_at": "2023-08-16T20:38:02.877Z",
+        "updated_at": "2023-08-17T08:19:30.536Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1b9806d5-b4c0-4949-99c8-898e8e54d5d9",
+        "name": "Golf",
+        "rules": "Hit the ball into the hole with the fewest strokes",
+        "betting_limit": 42501,
+        "created_at": "2023-08-17T10:06:13.930Z",
+        "updated_at": "2023-08-17T10:57:59.491Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b725a029-5043-41b8-b276-58ff6e00d38c",
+        "name": "Tennis",
+        "rules": "Hit the ball over the net without letting it touch the ground",
+        "betting_limit": 74001,
+        "created_at": "2023-08-17T13:31:26.395Z",
+        "updated_at": "2023-08-17T09:04:27.276Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bet": [
+      {
+        "id": "4f030464-947c-4fc9-9d54-9aed8e7d63d1",
+        "amount": 35082,
+        "status": "Active",
+        "created_at": "2023-08-17T09:56:31.380Z",
+        "updated_at": "2023-08-17T06:52:38.829Z",
+        "game_id": "b725a029-5043-41b8-b276-58ff6e00d38c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e59e2db4-c74d-4338-832f-9d6d86f0a042",
+        "amount": 55987,
+        "status": "Inactive",
+        "created_at": "2023-08-17T00:12:00.440Z",
+        "updated_at": "2023-08-17T10:57:30.156Z",
+        "game_id": "aced3af7-d3e9-4b20-94cf-6eebeae54523",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "718b7b2c-321a-4729-9e88-94192ee94a97",
+        "amount": 86045,
+        "status": "Pending",
+        "created_at": "2023-08-17T13:44:06.710Z",
+        "updated_at": "2023-08-17T01:57:02.102Z",
+        "game_id": "d244c732-040f-483f-8015-568c25c6d2a9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1407e04f-c91f-4dad-829e-81f5106dfc3c",
+        "amount": 33888,
+        "status": "Settled",
+        "created_at": "2023-08-17T03:46:08.475Z",
+        "updated_at": "2023-08-17T12:07:36.480Z",
+        "game_id": "1b9806d5-b4c0-4949-99c8-898e8e54d5d9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5f138b8-81f8-45e7-9ded-f0dab73a8067",
+        "amount": 27089,
+        "status": "Cancelled",
+        "created_at": "2023-08-17T15:17:48.438Z",
+        "updated_at": "2023-08-17T11:16:32.716Z",
+        "game_id": "b725a029-5043-41b8-b276-58ff6e00d38c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "82f095d0-4d38-4621-97f2-3fc2f3bfefce",
+        "email": "Cristina32@yahoo.com",
+        "firstName": "Samantha",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/606.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2fc9c2e7-d8e9-42bf-8266-1167c0c4ef8c",
+        "email": "Sedrick17@gmail.com",
+        "firstName": "Earl",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/300.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "026a8daf-730d-49c7-b381-280c14fc9ab6",
+        "email": "Nikki.Ratke0@gmail.com",
+        "firstName": "Houston",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17573387",
+        "tenantId": null
+      },
+      {
+        "reference": "f144bac7-8a54-40ec-be45-b0ae6e664604",
+        "email": "Emmalee.Wilderman@gmail.com",
+        "firstName": "Brenden",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "39c01e13-bcd5-4e88-be73-756df02e863f",
+        "email": "Rory_Skiles73@yahoo.com",
+        "firstName": "Glenda",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/733.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "133bc679-8ca1-4a91-b3da-057323486187",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-17T15:52:25.283Z",
+        "updated_at": "2023-08-17T14:59:08.492Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9725a3b-2cb0-4af6-9a05-8172cfb9dac9",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-17T06:24:32.369Z",
+        "updated_at": "2023-08-16T20:24:34.740Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a3de371-7011-42aa-936f-08c9295c2ce2",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-17T09:02:54.946Z",
+        "updated_at": "2023-08-16T20:10:47.717Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "124977c0-b4d1-4b3c-b4cb-1ecc20c404fc",
+        "role": "Analyst",
+        "status": "Suspended",
+        "created_at": "2023-08-16T23:38:05.430Z",
+        "updated_at": "2023-08-16T21:01:46.116Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9326405-a883-452e-8ab6-edb08b5c0ced",
+        "role": "Marketing",
+        "status": "Archived",
+        "created_at": "2023-08-17T06:53:25.769Z",
+        "updated_at": "2023-08-17T07:01:54.523Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "0615bc7d-40f9-46b0-9995-af65f60606cd",
+        "status": "Accepted",
+        "created_at": "2023-08-17T15:10:04.370Z",
+        "updated_at": "2023-08-17T14:33:36.934Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "54408eb5-22b5-41d0-b37c-8c689b030468",
+        "status": "Declined",
+        "created_at": "2023-08-17T08:52:36.384Z",
+        "updated_at": "2023-08-17T07:31:37.095Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e78826d9-43fc-4f01-af18-1a1235f84398",
+        "status": "Pending",
+        "created_at": "2023-08-17T10:17:16.592Z",
+        "updated_at": "2023-08-17T00:02:14.834Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "61a3d72e-05c8-40b6-9a12-f7b6d8559879",
+        "status": "Expired",
+        "created_at": "2023-08-16T18:10:34.803Z",
+        "updated_at": "2023-08-17T07:46:23.241Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf0fc114-4df5-4fa3-a13d-1410b4233a72",
+        "status": "Cancelled",
+        "created_at": "2023-08-17T03:09:53.670Z",
+        "updated_at": "2023-08-17T16:04:30.681Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "6b527460-bd68-4efa-ae76-e03fb569737b",
+        "name": "Chess",
+        "rules": "Two players, each with 16 pieces, compete on a checkered board",
+        "betting_limit": 69018,
+        "created_at": "2023-08-17T17:06:18.734Z",
+        "updated_at": "2023-08-17T12:08:16.816Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ed6b8e1b-38c0-475a-b05f-d2eb94da4fdb",
+        "name": "Soccer",
+        "rules": "Two teams of 11 players try to score goals by kicking a ball into the opponent's net",
+        "betting_limit": 94843,
+        "created_at": "2023-08-16T20:46:38.518Z",
+        "updated_at": "2023-08-17T02:45:37.938Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cc97eb42-1dcf-4e74-b54b-414109201311",
+        "name": "Basketball",
+        "rules": "Two teams of 5 players try to score points by shooting a ball through the opponent's hoop",
+        "betting_limit": 682,
+        "created_at": "2023-08-17T15:22:13.291Z",
+        "updated_at": "2023-08-17T16:19:19.625Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b3c2bcab-bdcd-4e3d-9f04-c3b86dd58228",
+        "name": "Golf",
+        "rules": "Individual players use clubs to hit a ball into a series of holes on a course",
+        "betting_limit": 63278,
+        "created_at": "2023-08-17T03:05:33.006Z",
+        "updated_at": "2023-08-17T13:46:13.261Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1fd50976-77e8-4578-bf63-eaf3570d28ec",
+        "name": "Tennis",
+        "rules": "Two players or teams hit a ball over a net using rackets",
+        "betting_limit": 22234,
+        "created_at": "2023-08-17T05:47:39.085Z",
+        "updated_at": "2023-08-17T09:40:24.462Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bet": [
+      {
+        "id": "c99b1885-4222-430a-a129-6c1de46443a1",
+        "amount": 72820,
+        "status": "Placed",
+        "created_at": "2023-08-17T01:14:42.045Z",
+        "updated_at": "2023-08-17T13:57:34.685Z",
+        "game_id": "ed6b8e1b-38c0-475a-b05f-d2eb94da4fdb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e75055ad-9ead-4e46-bf90-602c1f7a7836",
+        "amount": 46640,
+        "status": "Won",
+        "created_at": "2023-08-16T18:20:10.167Z",
+        "updated_at": "2023-08-17T01:06:22.929Z",
+        "game_id": "1fd50976-77e8-4578-bf63-eaf3570d28ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3055735-b57e-4ed3-9922-8c7f492904f5",
+        "amount": 10713,
+        "status": "Lost",
+        "created_at": "2023-08-17T06:08:45.067Z",
+        "updated_at": "2023-08-17T03:31:00.894Z",
+        "game_id": "6b527460-bd68-4efa-ae76-e03fb569737b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f3350ca-8c04-4ff8-811e-f1dd69bf94f6",
+        "amount": 97822,
+        "status": "Cancelled",
+        "created_at": "2023-08-17T08:04:30.811Z",
+        "updated_at": "2023-08-17T07:06:49.248Z",
+        "game_id": "6b527460-bd68-4efa-ae76-e03fb569737b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c5d0330-54ee-4e74-ba06-32b909331e8e",
+        "amount": 64606,
+        "status": "Refunded",
+        "created_at": "2023-08-16T20:54:09.019Z",
+        "updated_at": "2023-08-17T02:36:31.729Z",
+        "game_id": "ed6b8e1b-38c0-475a-b05f-d2eb94da4fdb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7dc895ad-2ec2-4d5a-8837-398b47955eee",
+        "email": "Caden.Heidenreich88@gmail.com",
+        "firstName": "Hans",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77408877",
+        "tenantId": null
+      },
+      {
+        "reference": "a43eded7-a42b-455d-b1f4-5a27bf4d0141",
+        "email": "Moshe.Mante39@gmail.com",
+        "firstName": "Noemi",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13171485",
+        "tenantId": null
+      },
+      {
+        "reference": "ddc9080d-3d1e-45a9-8ef3-9ca1117aafcb",
+        "email": "Jamel.Bode31@hotmail.com",
+        "firstName": "Burley",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/717.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6fe53700-c1b0-4cc0-8336-0c59f0dbb581",
+        "email": "Glenda.Gibson27@hotmail.com",
+        "firstName": "Hope",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78666535",
+        "tenantId": null
+      },
+      {
+        "reference": "cea0e0d6-e4d7-461e-950e-3072980013f5",
+        "email": "Augustus7@yahoo.com",
+        "firstName": "Mekhi",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20077121",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "8649417d-02c1-44ca-aefd-91f53d004b60",
+        "role": "Manager",
+        "status": "Active",
+        "created_at": "2023-08-16T19:17:34.891Z",
+        "updated_at": "2023-08-17T15:34:23.150Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3be16f93-c77a-4237-96eb-2b889095d035",
+        "role": "Developer",
+        "status": "Inactive",
+        "created_at": "2023-08-17T17:23:33.322Z",
+        "updated_at": "2023-08-17T05:38:40.045Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0fe8660-c69f-42e8-b8ed-597e8c370f6f",
+        "role": "Designer",
+        "status": "Pending",
+        "created_at": "2023-08-16T23:54:01.937Z",
+        "updated_at": "2023-08-16T23:24:07.502Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "022addd4-6e50-482b-b8be-dda8fa277f81",
+        "role": "Marketing Specialist",
+        "status": "Suspended",
+        "created_at": "2023-08-17T08:01:14.529Z",
+        "updated_at": "2023-08-17T10:50:38.725Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5404683-fffb-4762-b7a5-809a4125d7e7",
+        "role": "Sales Representative",
+        "status": "Approved",
+        "created_at": "2023-08-17T17:47:55.490Z",
+        "updated_at": "2023-08-17T03:01:36.078Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "306d37b8-71aa-4049-b0db-153df767624d",
+        "status": "Sent",
+        "created_at": "2023-08-17T07:28:30.002Z",
+        "updated_at": "2023-08-17T08:53:48.351Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d4f6c53d-9ecf-4662-b7d8-ce4d5db0d181",
+        "status": "Accepted",
+        "created_at": "2023-08-16T20:04:45.923Z",
+        "updated_at": "2023-08-16T20:39:34.798Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "63eb30df-681a-41b3-9391-2986d0cbec55",
+        "status": "Declined",
+        "created_at": "2023-08-17T06:14:58.246Z",
+        "updated_at": "2023-08-17T12:31:47.280Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "72e4326e-5830-497c-8acb-67a1a86d9244",
+        "status": "Pending",
+        "created_at": "2023-08-17T17:30:27.817Z",
+        "updated_at": "2023-08-16T22:19:13.186Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3666b2dc-9c23-4849-ad73-31fbe2063e80",
+        "status": "Expired",
+        "created_at": "2023-08-17T16:13:52.963Z",
+        "updated_at": "2023-08-17T16:59:03.502Z",
+        "invited_user_id": "user_entity_pk",
+        "inviting_user_id": "user_entity_pk",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "game": [
+      {
+        "id": "052dc2c9-895b-4c46-9e1f-c7d7a17b13d3",
+        "name": "Chess",
+        "rules": "Two players, each with 16 pieces, compete to checkmate the opponent's king",
+        "betting_limit": 58429,
+        "created_at": "2023-08-17T03:09:11.361Z",
+        "updated_at": "2023-08-17T02:55:39.859Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5ca1cd0a-01b9-487b-8783-555a5fc897ad",
+        "name": "Soccer",
+        "rules": "Two teams of 11 players each try to score goals by kicking a ball into the opposing team's net",
+        "betting_limit": 8053,
+        "created_at": "2023-08-17T02:37:23.647Z",
+        "updated_at": "2023-08-17T01:01:12.445Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a9b8b73e-d442-4a07-9e78-fa5094f2de5e",
+        "name": "Basketball",
+        "rules": "Two teams of 5 players each try to score points by shooting a ball through the opponent's hoop",
+        "betting_limit": 43374,
+        "created_at": "2023-08-17T05:12:05.745Z",
+        "updated_at": "2023-08-17T01:45:54.677Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "53735d1e-bfaa-451e-9229-418a86603fc6",
+        "name": "Tennis",
+        "rules": "Two players hit a ball back and forth over a net using rackets",
+        "betting_limit": 83697,
+        "created_at": "2023-08-17T02:27:48.685Z",
+        "updated_at": "2023-08-17T09:08:29.865Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "79066812-d45c-4786-b876-fb3c52af2766",
+        "name": "Golf",
+        "rules": "Players use clubs to hit a ball into a series of holes on a course in the fewest strokes possible",
+        "betting_limit": 82828,
+        "created_at": "2023-08-16T20:33:39.720Z",
+        "updated_at": "2023-08-17T02:49:00.874Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bet": [
+      {
+        "id": "157d1a14-ce96-492b-9b5d-2da0febae5d3",
+        "amount": 74395,
+        "status": "Placed",
+        "created_at": "2023-08-17T16:02:19.193Z",
+        "updated_at": "2023-08-17T08:20:55.047Z",
+        "game_id": "53735d1e-bfaa-451e-9229-418a86603fc6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0ea6b5e-64f2-4d7e-816f-4d3fd6490f29",
+        "amount": 19168,
+        "status": "Won",
+        "created_at": "2023-08-17T12:23:48.815Z",
+        "updated_at": "2023-08-17T16:11:24.650Z",
+        "game_id": "5ca1cd0a-01b9-487b-8783-555a5fc897ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16137eaa-5214-4493-8c1c-efd07a580300",
+        "amount": 5416,
+        "status": "Lost",
+        "created_at": "2023-08-16T21:21:51.923Z",
+        "updated_at": "2023-08-17T16:06:31.176Z",
+        "game_id": "5ca1cd0a-01b9-487b-8783-555a5fc897ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e65d2372-907d-4c26-a812-9bc420a2b177",
+        "amount": 83504,
+        "status": "Cancelled",
+        "created_at": "2023-08-17T09:24:57.349Z",
+        "updated_at": "2023-08-16T18:54:44.827Z",
+        "game_id": "79066812-d45c-4786-b876-fb3c52af2766",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3f8fd9f-0ffb-479d-8f02-554dd2659f11",
+        "amount": 68378,
+        "status": "Pending",
+        "created_at": "2023-08-17T00:02:00.674Z",
+        "updated_at": "2023-08-17T13:38:23.421Z",
+        "game_id": "a9b8b73e-d442-4a07-9e78-fa5094f2de5e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "830cf593-e46d-48af-808b-297f995ce688",
+        "email": "Baby_Collier@gmail.com",
+        "firstName": "Eve",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/108.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ff66c2ba-f06a-4e2d-98e5-65f8768bfc33",
+        "email": "Nicola_Herman28@yahoo.com",
+        "firstName": "Itzel",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9469c4b1-97ea-4a64-b8bc-08fd574bccb5",
+        "email": "Cesar_Kuphal-Emmerich@gmail.com",
+        "firstName": "Khalil",
+        "lastName": "O'Keefe-Frami",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/490.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d9e1707d-8fd2-4463-9e1c-e03c86db98df",
+        "email": "Eleazar_Satterfield64@gmail.com",
+        "firstName": "Friedrich",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34324210",
+        "tenantId": null
+      },
+      {
+        "reference": "3918cd06-35b9-4d78-ac1f-5a933e74b851",
+        "email": "Marques.Robel89@hotmail.com",
+        "firstName": "Leann",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1172.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
